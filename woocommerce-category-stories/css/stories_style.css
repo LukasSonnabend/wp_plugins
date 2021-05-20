@@ -1,0 +1,37 @@
+.category_stories_element {
+  margin-top: 0.25em;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.stories_element {
+  text-align: center;
+  cursor: pointer;
+}
+
+.story_bubble_backdrop {
+  background: linear-gradient(to right, red, orange);
+  border-radius: 70px;
+  height: 100px;
+  width: 100px;
+}
+
+.story_bubble {
+  position: relative; 
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 70px;
+  height: 80px;
+  width: 80px;
+}
+
+.story_bubble > img {
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
